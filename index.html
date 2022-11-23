@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure javaScript Dynamic Calendar </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+        <div class="box">
+            <div class="text">
+                <form id="selections">
+                    <select id="options-month">
+                        <option disabled selected>Month</option>
+                        <option value="Januray">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                    <input type="number" name="Year" min="1000" max="3000" id="year-input" placeholder="Year">
+                    <input type="submit" value="Go">
+                </form> <!-- selections -->
+
+                <h2><span class="todaysDay">01</span>, <span class="todaysWeekDay">Monday</span></h2>
+                <p class="month">December</p>
+                <p class="year">2010</p>
+            </div> <!-- text -->
+
+            <div class="dates">
+                <div class="day">S</div>
+                <div class="day">M</div>
+                <div class="day">T</div>
+                <div class="day">W</div>
+                <div class="day">T</div>
+                <div class="day">F</div>
+                <div class="day">S</div>
+            </div> <!-- dates -->
+        </div> <!-- box -->
+    </div> <!-- container -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
